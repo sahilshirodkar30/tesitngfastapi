@@ -1,27 +1,22 @@
 fastapi
 uvicorn
 
-# Torch (CPU, compatible with Py 3.11)
+# ML / Embeddings
 torch==2.2.2
-
-# Transformers stack (PINNED)
 transformers==4.39.3
 sentence-transformers==2.6.1
-
-# Vector DB
 faiss-cpu==1.7.4
 
-# LangChain (PINNED, compatible)
+# RAG / PDF
 langchain==0.2.16
 langchain-community==0.2.16
 langchain-core==0.2.38
+pypdf
 
 # LLM
 groq
 
-# PDF
-pypdf
-
-# Utils
+# FastAPI utilities
+python-multipart
 pydantic
 python-dotenv
