@@ -2,7 +2,7 @@ fastapi
 uvicorn
 sentence-transformers
 faiss-cpu
-torch==2.1.2+cpu
+torch==2.1.2
 langchain
 langchain-community
 groq
