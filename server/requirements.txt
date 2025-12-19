@@ -1,10 +1,20 @@
 fastapi
 uvicorn
+
+# ML / embeddings
 sentence-transformers
 faiss-cpu
 torch==2.1.2
-langchain
-langchain-community
+
+# LangChain (PINNED — VERY IMPORTANT)
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-core==0.2.38
+
+# LLM
 groq
+
+# Utils
 pydantic
 python-dotenv
+pypdf
