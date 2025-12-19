@@ -1,12 +1,17 @@
 fastapi
 uvicorn
 
-# ML / embeddings
-sentence-transformers
-faiss-cpu
-torch==2.1.2
+# Torch (CPU, compatible with Py 3.11)
+torch==2.2.2
 
-# LangChain (PINNED — VERY IMPORTANT)
+# Transformers stack (PINNED)
+transformers==4.39.3
+sentence-transformers==2.6.1
+
+# Vector DB
+faiss-cpu==1.7.4
+
+# LangChain (PINNED, compatible)
 langchain==0.2.16
 langchain-community==0.2.16
 langchain-core==0.2.38
@@ -14,7 +19,9 @@ langchain-core==0.2.38
 # LLM
 groq
 
+# PDF
+pypdf
+
 # Utils
 pydantic
 python-dotenv
-pypdf
